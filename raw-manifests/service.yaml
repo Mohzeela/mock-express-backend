@@ -4,7 +4,7 @@ metadata:
   name: express-service
 spec:
   selector:
-    app: express-api
+    app: nginx
   type: LoadBalancer
   ports:
   - protocol: TCP
